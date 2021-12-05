@@ -1,0 +1,23 @@
+{
+  "name": "weather-demo",
+  "version": "1.0.0",
+  "description": "some node js demo project",
+  "main": "weather.js",
+  "bin": {
+    "weather": "./weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Trubitsyn",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "date-fns": "^2.27.0",
+    "dedent-js": "^1.0.1",
+    "lodash": "^4.17.21"
+  }
+}
